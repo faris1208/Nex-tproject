@@ -32,6 +32,7 @@ export default function CreateForm() {
             router.push('/tickets')
         }
     }
+    
 
   return (
     <form onSubmit={handleSubmit} className="w-1/2">
